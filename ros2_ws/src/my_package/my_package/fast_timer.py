@@ -6,7 +6,7 @@ class FastTimerNode(Node):
         super().__init__('fast_timer_node')
         timer_period = 0.1
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.count = 0 
+        self.count = 0
 
     def timer_callback(self):
         self.count += 1
