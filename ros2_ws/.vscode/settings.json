@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/root/ros2_ws/build/tutorial_topic",
+        "/root/ros2_ws/install/tutorial_topic/lib/python3.10/site-packages",
+        "/root/ros2_ws/build/my_package",
+        "/root/ros2_ws/install/my_package/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/root/ros2_ws/build/tutorial_topic",
+        "/root/ros2_ws/install/tutorial_topic/lib/python3.10/site-packages",
+        "/root/ros2_ws/build/my_package",
+        "/root/ros2_ws/install/my_package/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

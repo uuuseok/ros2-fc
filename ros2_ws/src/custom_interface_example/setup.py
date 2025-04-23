@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'tutorial_topic'
+package_name = 'custom_interface_example'
 
 setup(
     name=package_name,
@@ -20,9 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'move_publisher = tutorial_topic.move_publisher:main',
-            'lidar_subscriber = tutorial_topic.lidar_subscriber:main',
-            'continuous_wall_finder = tutorial_topic.continuous_wall_finder:main'
+            'robot_status_publisher = custom_interface_example.robot_status_publisher:main'
         ],
     },
 )
+
