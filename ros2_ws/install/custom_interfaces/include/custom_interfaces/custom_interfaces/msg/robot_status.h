@@ -1,0 +1,1 @@
+/root/ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/robot_status.h
