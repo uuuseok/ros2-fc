@@ -1,5 +1,22 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,ros2,c++,cmake,git,jupyternotebooks,macos,visualstudiocode,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,ros2,c++,cmake,git,jupyternotebooks,macos,visualstudiocode,pycharm
+# ROS2 build artifacts
+
+build/
+install/
+log/
+#
+# # Python artifacts
+*.pyc
+__pycache__/
+#
+# # VSCode 설정 무시
+.vscode/
+#
+# # 환경 설정 파일 무시 (개인 설정)
+*.swp
+*.bak
+.env
 
 ### C++ ###
 # Prerequisites
@@ -239,7 +256,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-#build/
+build/
 develop-eggs/
 dist/
 downloads/
