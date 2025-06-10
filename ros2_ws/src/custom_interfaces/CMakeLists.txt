@@ -28,6 +28,7 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME} #추가
   "msg/RobotStatus.msg"
+  "srv/MoveRobot.srv"
 )
 
 ament_package()
