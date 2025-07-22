@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'custom_interface_example'
+package_name = 'logger_test'
 
 setup(
     name=package_name,
@@ -20,13 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-<<<<<<< HEAD
-            'robot_status_publisher = custom_interface_example.robot_status_publisher:main'
-=======
-            'robot_status_publisher = custom_interface_example.robot_status_publisher:main',
-            'movement_server = custom_interface_example.movement_server:main'
->>>>>>> origin/main
+            'log_demo = logger_test.log_demo:main',
         ],
     },
 )
-

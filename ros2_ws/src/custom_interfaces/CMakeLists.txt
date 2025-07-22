@@ -28,6 +28,11 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME} #추가
   "msg/RobotStatus.msg"
+<<<<<<< HEAD
+=======
+  "srv/MoveRobot.srv"
+  "action/RotateAbsolute.action"
+>>>>>>> origin/main
 )
 
 ament_package()

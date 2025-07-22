@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'custom_interface_example'
+package_name = 'node_exercise'
 
 setup(
     name=package_name,
@@ -20,13 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-<<<<<<< HEAD
-            'robot_status_publisher = custom_interface_example.robot_status_publisher:main'
-=======
-            'robot_status_publisher = custom_interface_example.robot_status_publisher:main',
-            'movement_server = custom_interface_example.movement_server:main'
->>>>>>> origin/main
+            'problem_node = node_exercise.problem:main',
+            'solution1_node = node_exercise.solution1:main',
+            'solution2_node = node_exercise.solution2:main',
+            'callback_groups_example = node_exercise.callback_groups_example:main',
         ],
     },
 )
-

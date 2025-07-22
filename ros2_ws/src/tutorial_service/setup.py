@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'custom_interface_example'
+package_name = 'tutorial_service'
 
 setup(
     name=package_name,
@@ -20,13 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-<<<<<<< HEAD
-            'robot_status_publisher = custom_interface_example.robot_status_publisher:main'
-=======
-            'robot_status_publisher = custom_interface_example.robot_status_publisher:main',
-            'movement_server = custom_interface_example.movement_server:main'
->>>>>>> origin/main
+            'empty_service_client = tutorial_service.empty_service_client:main',
+            'tiago_move_server = tutorial_service.tiago_move_server:main',
         ],
     },
 )
-
